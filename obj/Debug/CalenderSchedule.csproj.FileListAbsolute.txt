@@ -8,3 +8,13 @@ D:\Work\Persoanl Projects\Tools\Windows Forms\CalenderSchedule\bin\Debug\Calende
 D:\Work\Persoanl Projects\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.exe
 D:\Work\Persoanl Projects\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.pdb
 D:\Work\Persoanl Projects\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.csprojAssemblyReference.cache
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\bin\Debug\CalenderSchedule.exe.config
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\bin\Debug\CalenderSchedule.exe
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\bin\Debug\CalenderSchedule.pdb
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.csprojAssemblyReference.cache
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.frmCalenderSchedule.resources
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.Properties.Resources.resources
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.csproj.GenerateResource.cache
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.csproj.CoreCompileInputs.cache
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.exe
+D:\Work\Tlaka And Brain\In-House Projects\Development\C#\Tools\Windows Forms\CalenderSchedule\obj\Debug\CalenderSchedule.pdb

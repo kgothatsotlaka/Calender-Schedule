@@ -18,7 +18,6 @@ namespace CalenderSchedule
 
         public frmCalenderSchedule()
         {
-          
             InitializeComponent();
             GenerateDays(35);
             DisplayCurrentDate();
@@ -27,7 +26,6 @@ namespace CalenderSchedule
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          
         }
 
         private void Btnclose_Click(object sender, EventArgs e)
@@ -90,10 +88,13 @@ namespace CalenderSchedule
                 {
                     _daysInAMonth[(i - 1) + (startDayAtFlNumber - 1)].BackColor = Color.Aquamarine;
                 }
-
-
             }
         }
+        //To DO : First you have to create the link in the control
+        //To Do : Implement a method to add appointment links to days. 
+        //It's implementation will be the same as the AddLabelDayToFlDay Method
+        //Need to use Entity Framework to Create a database with appointments so that you can pull them and be able to test.
+
 
         private void DisplayCurrentDate()
         {
@@ -102,8 +103,6 @@ namespace CalenderSchedule
             int totalDay = GetTotalDaysOfCurrentDate();
 
             AddLabelDayToFlDay(firstDayAtFlNumber, totalDay);
-            
-
         }
 
 
@@ -118,6 +117,7 @@ namespace CalenderSchedule
             _currentDate = _currentDate.AddMonths(1);
             DisplayCurrentDate();
         }
+
         private void Today()
         {
             _currentDate = DateTime.Today;
@@ -128,27 +128,21 @@ namespace CalenderSchedule
         {
             DateTime firstDayOfMonth = new DateTime(_currentDate.Year, _currentDate.Month, 1);
             return Convert.ToInt32(firstDayOfMonth.DayOfWeek);
-
-
         }
 
         private int GetTotalDaysOfCurrentDate()
         {
             DateTime firstDayOfCurrentDate = new DateTime(_currentDate.Year, _currentDate.Month, 1);
             return firstDayOfCurrentDate.AddMonths(1).AddDays(-1).Day;
-
-
         }
 
 
         private void Panel1_Paint(object sender, PaintEventArgs e)
         {
-          
         }
 
         private void PnlBodyContent_Paint(object sender, PaintEventArgs e)
         {
-           
         }
 
         private void BtnToday_Click(object sender, EventArgs e)
